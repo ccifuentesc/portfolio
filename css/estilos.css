@@ -150,8 +150,57 @@ p {
 }
 
 #stack-tecnologico{
-    background-color: red;
-    
+    background: linear-gradient(90deg, rgba(172, 56, 56, 1) 0%, rgba(238, 5, 5, 1) 50%, rgba(157, 0, 11, 1) 100%);
+}
+
+#stack-tecnologico .tecnologia{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 182px;
+}
+
+#stack-tecnologico h2{
+    font-size: 24px;
+    color: white;
+}
+
+#stack-tecnologico h3{
+    font-size: 14px;
+    color: black;
+    font-weight: 300    ;
+}
+
+#stack-tecnologico .tecnologia img{
+    height: 60px;
+}
+
+#experiencia img{
+    /*height: 90px;*/
+    text-align: center;
+    /*width: 150px;*/
+}
+
+#experiencia h2{
+    font-size: 24px;
+    color: #370a6d;
+    font-weight: 400;
+}
+
+#experiencia h3{
+    font-size: 18px;
+    color: #6a6a6a;
+    font-weight: 600;
+}
+
+#experiencia h4{
+    font-size: 17px;
+    color: #6a6a6a;
+}
+
+#experiencia h5{
+    font-size: 14px;
+    color: #6a6a6a;
 }
 
 .btn {
