@@ -1,3 +1,9 @@
+<?php
+
+  $pg="sobre-mi";
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,30 +21,7 @@
 
 <body id="sobre-mi">
   <header class="container">
-    <nav class="navbar navbar-expand-md mb-4">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="sobre-mi.html">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <?php include_once("menu.php"); ?>
   </header>
 
   <main>
@@ -54,7 +37,7 @@
             indicadores de gestión, presentación de informes y dominio del paquete Microsoft Office. Con capacidad de
             liderazgo, organización y planeación, trabajo en equipo y orientación a resultados.</p>
           <div class="my-5">
-            <a href="contacto.html" class="btn-rojo">Enviar mensaje</a>
+            <a href="contacto.php" class="btn-rojo">Enviar mensaje</a>
           </div>
         </div>
         <div class="col-12 col-sm-5 mx-auto text-center">

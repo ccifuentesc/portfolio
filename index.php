@@ -1,3 +1,9 @@
+<?php
+
+  $pg="index";
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,7 +26,7 @@
       <div class="row">
         <div class="col-12 mx-auto text-center cohete">
           <div>
-            <a href="proyectos.html"><img src="images/cohete.svg" alt=""></a>
+            <a href="proyectos.php"><img src="images/cohete.svg" alt=""></a>
           </div>
         </div>
         <div class="col-12 col-sm-6 offset-sm-3 text-center pt-4">
@@ -29,7 +35,7 @@
           </div>
         </div>
         <div class="col-12 text-center">
-          <a href="proyectos.html" class="btn my-3 shadow">Conoce mis proyectos</a>
+          <a href="proyectos.php" class="btn my-3 shadow">Conoce mis proyectos</a>
         </div>
       </div>
     </main>

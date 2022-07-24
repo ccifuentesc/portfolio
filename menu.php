@@ -6,16 +6,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Inicio</a>
+                    <a class="nav-link <?php echo ($pg=="index")? "active": ""; ?>" href="index.php">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
+                    <a class="nav-link <?php echo ($pg=="sobre-mi")? "active": ""; ?>" href="sobre-mi.php">Sobre mí</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="proyectos.html">Proyectos</a>
+                    <a class="nav-link  <?php echo ($pg=="proyectos")? "active": ""; ?>" href="proyectos.php">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link  <?php echo ($pg=="contacto")? "active": ""; ?>" href="contacto.php">Contacto</a>
                 </li>
             </ul>
         </div>
